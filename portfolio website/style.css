@@ -1,0 +1,167 @@
+/* style.css — Basic styling for personal portfolio */
+
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and text setup */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header section */
+header {
+  background-color: #180f0f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+/* Navigation menu */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Section general style */
+section {
+  padding: 30px 20px;
+  background-color: white;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* About section */
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#about img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+#about p {
+  max-width: 500px;
+}
+
+/* Skills list */
+#skills ul {
+  list-style: none;
+  text-align: center;
+}
+
+#skills li {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+/* Projects section */
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+/* Resume section */
+#resume a {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#resume a:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+/* Contact form */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ffcc00;
+  color: black;
+}
+
+/* Footer section */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+}
